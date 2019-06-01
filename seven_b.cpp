@@ -52,3 +52,29 @@ cout<<arr[x]<<endl;
 }
 }
 };
+int main()
+{
+stack <int> i;
+stack <float> f;
+int x;
+cout<<"For integer stack\n";
+cout<<"Enter data to push\n";
+cin>>x;
+i.push(x);
+cout<<"Traversing\n";
+i.traverse();
+i.pop();
+cout<<"Traversing\n";
+i.traverse();
+float y;
+cout<<"\nEnter float data to push"<<endl;
+cin>>y;
+f.push(y);
+cout<<"Traversing\n";
+f.traverse();
+f.pop();
+cout<<"Traversing\n";
+f.traverse();
+return 0;
+}
+
